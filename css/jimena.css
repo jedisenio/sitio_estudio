@@ -1,0 +1,148 @@
+/*font-family: 'Quicksand', sans-serif;*/
+
+body {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 16px;
+    line-height: 20px;
+
+}
+
+header {
+    background-color: rgb(196, 189, 181);
+    padding: 2em 0;
+}
+
+
+header h1 {
+    color: white;
+    font-size: 1.5em;
+    font-style: italic;
+    font-weight: 100;
+    display:inline-block;
+    position: relative;
+    bottom: 30px;
+    left: 30px;
+}
+
+nav{
+    background-color: darkgrey;
+    margin-bottom: 2em;
+
+}
+
+nav ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li{
+    display: inline-block;
+    width: 20%;
+}
+
+nav ul li a{
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    display: block;
+    padding: 0.2em 0.4em;
+
+}
+
+nav ul li a:hover{
+background-color: black;
+
+}
+
+footer{
+    background-color: gray;
+    clear: both;
+    color: darkgray;
+    padding: 3em 0;
+    margin-top: 2em;
+    text-align: center;
+}
+
+nav ul li a.activo{
+background-color: gray;
+}
+/*inicio home*/
+
+.holder{
+max-width: 960px;
+margin: 0 auto;
+
+}
+
+h2{
+    color: grey;
+    font-weight: 400;
+    margin: 0 0 1 em;
+
+}
+
+.left {
+    float:left
+
+}
+
+.estudio{
+    text-align: justify
+
+}
+
+.textoestudio {line-height: 200%;
+
+}
+
+/*fin home*/
+/*inicio nosotros*/
+.elestudio{
+    font-size: 0.8em;
+    padding-bottom: 20px;
+
+}
+.staff{
+    font-size: 0.8em;
+    padding-bottom: 20px;
+}
+
+.persona{
+    width:100%;
+    border-radius: 0,25em;
+    float: left;
+    box-sizing: border-box;
+}
+
+.persona img{
+    border-radius: 5%;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 5);
+    margin: 0.8em 0 1em;
+    max-width: 15%;
+}
+
+.persona:nth-child(even) img{
+    float: left;
+margin-right: 30px;
+}
+
+.persona h5 {
+    text-align: left;
+    font-weight:normal;
+    color: cadetblue;
+    margin: 10px;;
+}
+
+.persona h5{
+    font-size: 2em;
+    align-items: left;
+}
+
+.textonosotros{
+font-size: 1.3em;
+margin-top: 40px;
+
+}
+
+/*fin nosotros*/
